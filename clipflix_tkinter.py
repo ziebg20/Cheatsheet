@@ -90,7 +90,7 @@ def resize_image(image_path, width, height, text=None):
     return ImageTk.PhotoImage(img)
 
 # Display Image
-img_builtin = resize_image("C:/Users/School/Year12Computing/clipflix_img/bannerSMP.png", 1000, 200)
+img_builtin = resize_image("clipflix_img/bannerSMP.png", 1000, 200)
 lbl_builtin = Label(root, image=img_builtin)
 lbl_builtin.pack()
 
@@ -116,17 +116,17 @@ lbl_diy = Label(frame_images, image=img_diy, width=200, height=200)
 lbl_diy.pack(side=tk.LEFT)
 
 # Image 3
-img_hospital = resize_image("C:/Users/School/Year12Computing/clipflix_img/paperclip-hospital.png", 200, 200, "Hospital")
+img_hospital = resize_image("clipflix_img/paperclip-hospital.png", 200, 200, "Hospital")
 lbl_hospital = Label(frame_images, image=img_hospital, width=200, height=200)
 lbl_hospital.pack(side=tk.LEFT)
 
 # Image 4
-img_kidsscience = resize_image("C:/Users/School/Year12Computing/clipflix_img/paperclip-kidsscience.png", 200, 200, "Kid Science")
+img_kidsscience = resize_image("clipflix_img/paperclip-kidsscience.png", 200, 200, "Kid Science")
 lbl_kidsscience = Label(frame_images, image=img_kidsscience, width=200, height=200)
 lbl_kidsscience.pack(side=tk.LEFT)
 
 # Image 5
-img_sitcom = resize_image("C:/Users/School/Year12Computing/clipflix_img/paperclip-sitcom.png", 200, 200, "Sitcom")
+img_sitcom = resize_image("clipflix_img/paperclip-sitcom.png", 200, 200, "Sitcom")
 lbl_sitcom = Label(frame_images, image=img_sitcom, width=200, height=200)
 lbl_sitcom.pack(side=tk.LEFT)
 
