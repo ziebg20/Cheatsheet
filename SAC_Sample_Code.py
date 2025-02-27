@@ -1,7 +1,7 @@
 """
 ULTIMATE MULTI-LANGUAGE CHEAT SHEET (1000+ LINES)
 Expanded with Python, Tkinter, HTML, CSS, Basic Java, CSV, TXT, advanced examples, and more!
-Author: ChatGPT
+Author: Gus Ziebell-Barnes
 
 NOTE: This file is extremely large and covers multiple programming languages
 and technologies in one place for your SAC. We are now aiming for 1000+ lines.
